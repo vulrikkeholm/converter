@@ -1,0 +1,28 @@
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+
+
+h1 {background-color: purple;
+    color: white;
+    padding: 20px;
+}
+#btn {padding: 20px;}
+#inputField {padding: 20px;}
+.box1 {background-color: whitesmoke;
+        padding: 20px;
+        border-radius: 20px;
+}
+.box2 {background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box3 {background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+
+}
