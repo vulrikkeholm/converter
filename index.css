@@ -2,27 +2,32 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
-        
+        align-items: center; 
+        background-color: black;       
 }
 
+main {width: 550px;}
 
-h1 {background-color: purple;
+header {background-color: #6943FF;
     color: white;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 #btn {padding: 20px;}
 #inputField {padding: 20px;}
-.box1 {background-color: whitesmoke;
+
+section {background-color: lightgray;
+        text-align: center;
         padding: 20px;
-        border-radius: 20px;
+        margin: 0px;
 }
-.box2 {background-color: whitesmoke;
-    padding: 20px;
-    border-radius: 20px;
-}
-.box3 {background-color: whitesmoke;
-    padding: 20px;
-    border-radius: 20px;
+
+.box {background-color: whitesmoke;
+        padding: 20px 20px 40px 20px;
+        border-top-left-radius:10px;
+        margin-bottom: 10px;
 
 }
