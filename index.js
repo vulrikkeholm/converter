@@ -7,7 +7,7 @@ const mass1 = document.getElementById("mass")
 
 let num1 = document.getElementById("inputField")
 
-//Thors Branch
+
 function fun1() {
     const m2f = num1.value*3.281;
 const f2m = num1.value/3.281;
